@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Stuyvesant Girls Who Code 2019</title>
+  </head>
+
+  <body>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <div class="container-fluids">
+      <h1 class="display-3 text-center">Stuyvesant Girls Who Code 2019</h1>
+      <h2 class="display-4 text-center">HTML/CSS</h2>
+    </div><br>
+
+    <div id="nav">
+      <nav class="navbar justify-content-center">
+        <a class="nav-link text-danger" href="index.html">Minutes</a>
+        <a class="nav-link text-warning" href="index.html">Projects</a>
+      </nav>
+    </div><br><br>
+
+    <div id="source">
+      <div class="container">
+        <b>Source</b>: https://www.w3schools.com/html/html_intro.asp
+      <div>
+    </div><br>
+
+    <div id="what">
+      <div class="container">
+        <h3 class="display-6">What is HTML?</h3><br>
+        HTML is the standard markup language for creating Web pages.
+
+        <ul>
+          <li>HTML stands for Hyper Text Markup Language</li>
+          <li>HTML describes the structure of Web pages using markup</li>
+          <li>HTML elements are the building blocks of HTML pages</li>
+          <li>HTML elements are represented by tags</li>
+          <li>HTML tags label pieces of content such as "heading", "paragraph", "table", and so on</li>
+          <li>Browsers do not display the HTML tags, but use them to render the content of the page</li>
+        <ul>
+        <br>
+      </div>
+      <br>
+    </div>
+
+    <div id="sample">
+      <div class="container">
+        <h3 class="display-6">Sample Code</h3><br>
+
+        <pre><code>
+          &lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+              &lt;head&gt;
+                &lt;title&gt;Page Title&lt;/title&gt;
+              &lt;/head&gt;
+              &lt;body&gt;
+
+                &lt;h1&gt;My First Heading&lt;/h1&gt;
+                &lt;p&gt;My first paragraph.&lt;/p&gt;
+
+              &lt;/body&gt;
+            &lt;/html&gt;
+        </code></pre>
+
+        <ul>
+          <li>The &lt;/!DOCTYPE html&gt; declaration defines this document to be HTML5</li>
+          <li>The &lt;/html&gt; element is the root element of an HTML page</li>
+          <li>The &lt;/head&gt; element contains meta information about the document</li>
+          <li>The &lt;/title&gt; element specifies a title for the document</li>
+          <li>The &lt;/h1&gt; element defines a large heading</li>
+          <li>The &lt;/p&gt; element defines a paragraph</li>
+        <ul>
+
+      </div>
+      <br>
+    </div>
+
+    <div id="tags-explained">
+      <div class="container">
+        <h3 class="display-6">Sample Code</h3><br>
+
+        <pre><code>
+          <h4>&lt;tagname&gt;content goes here...&lt;/tagname&gt;</h4>
+        </code></pre>
+
+        <ul>
+          <li>HTML tags normally come in pairs like &lt;p&gt; and &lt;p&gt;</li>
+          <li>The first tag in a pair is the start tag, the second tag is the end tag</li>
+          <li>The end tag is written like the start tag, but with a forward slash inserted before the tag name</li>
+        <ul>
+
+      </div>
+      <br>
+    </div>
+
+    <div id="tags">
+      <div class="container">
+        <h3 class="display-6">Some Tags</h3><br>
+
+        For some common tags, see <a href="http://www.thuto.org/ubh/web/html/tags1.htm">http://www.thuto.org/ubh/web/html/tags1.htm</a>
+
+      </div>
+      <br>
+    </div>
+
+    <div id="tags">
+      <div class="container">
+        <h3 class="display-6">CSS</h3><br>
+
+        Designs with HTML (HTML is just the basic structure, but what if you need to design it?)<br><br>
+
+        <b>Internal</b><br>
+
+        <code>
+
+          &lt;style type="text/css"&gt;<br>
+            &nbsp;&nbsp;&nbsp;.myNewStyle {<br>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;font-family: Verdana, Arial, Helvetica, sans-serif;<br>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;font-weight: bold;<br>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color: #FF0000;<br>
+            &nbsp;&nbsp;&nbsp;}<br>
+          &lt;/style&gt;
+
+        </code><br><br>
+
+        <b>External</b><br>
+        Write that in a separate file.css and then import it<br><br>
+
+        style.css:<br>
+        <code>
+
+            .myNewStyle {<br>
+               &nbsp;&nbsp;&nbsp;font-family: Verdana, Arial, Helvetica, sans-serif;<br>
+               &nbsp;&nbsp;&nbsp;font-weight: bold;<br>
+               &nbsp;&nbsp;&nbsp;color: #FF0000;<br>
+            }<br>
+
+        </code><br>
+
+        index.html:<br>
+        <code>
+
+          &lt;link rel="stylesheet" href="style.css"&gt;
+
+        </code><br><br>
+
+      </div>
+      <br>
+    </div>
+
+    <div id="tags">
+      <div class="container">
+        <h3 class="display-6">Bootstrap</h3><br>
+
+        Isn't writing all those tags annoying? Bootstrap has built-in CSS that you can import<br><br>
+
+        <ol>
+          <li>Download the files from <a href="https://getbootstrap.com/docs/4.0/getting-started/download/">https://getbootstrap.com/docs/4.0/getting-started/download/<a> to view the CSS</li>
+          <li>Use CDN (server) to access the CSS remotely</li><br>
+            <code>
+              &lt;link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"&gt;
+            </code><br><br>
+          <li>Access the CSS by naming your divs</li><br>
+            EX:<br>
+            <pre><code>
+              &lt;div id="nav"&gt;
+                &lt;nav class="navbar fixed-top bg-dark justify-content-center"&gt;
+                  &lt;a class="nav-link text-danger" href="#home"&gt;Home&lt;/a&gt;
+                  &lt;a class="nav-link text-warning" href="#grids"&gt;Grids&lt;/a&gt;
+                  &lt;a class="nav-link text-info" href="#buttons"&gt;Buttons&lt;/a&gt;
+                  &lt;a class="nav-link text-danger" href="#table"&gt;Tables&lt;/a&gt;
+                  &lt;a class="nav-link text-warning" href="#other"&gt;Other&lt;/a&gt;
+
+                &lt;/nav&gt;
+                &lt;/div&gt;
+            </code></pre><br><br>
+        </ol>
+    </div>
+  </body>
+</html>
